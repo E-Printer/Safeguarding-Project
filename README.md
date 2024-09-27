@@ -14,7 +14,7 @@ To do this it will include:
 ## Target Audience: Code Institute members
 This project will benefit Code Institute (CI) members by presenting them with easy access to a 'one stop shop' for safeguarding information. This information will be presented concisely, with CI members valued time in mind and hopefully be aesthetically pleasing. Help channels will be clearly displayed both internally to the company and externally to government websites, as those seeking information may typically be considering reporting an issue and look for further councelling.
 
-## User Stories:
+## User Stories
 ### User Story 1:
 As a user, I want to see a section displaying contact information so that I know who to reach out to and how to contact them..
 ### Acceptance Criteria:
@@ -89,10 +89,15 @@ FAQ section to round off website with summarised pieces of key information.
 ---
 For a clean, minimal design, following a familiar structure seen on the code institute website, I'll use **Soft White (#F8F9FA)** as the main background colour. I'll highlight important elements like buttons and calls to action with **Bright Orange (#FF6F3C)**. To keep things warm but subtle, I'll use **Soft Peach (#FFA552)** for section backgrounds or navigation menus. For readability, I'll ensure the body text is in **Dark Charcoal (#333333)** and use **Deep Burnt Orange (#D35400)** for headings or key information. Finally, I'll add **Light Warm Grey (#E5E5E5)** for borders and dividing lines to subtly separate content areas.
 
+## Typography
+
+Montserrat for headings owing to its modern and professional look that is slightly bolder and catching.
+Roboto for the body: clean and professional looking.
+
 ## Accessibility Considerations
 
 ### Colour Contrast:
-Use of colours with strong contrast to make text easy to read. For example, Dark Charcoal (#333333) text on White (#FFFFFF) or Soft White (#F8F9FA) backgrounds provides clear contrast, meeting accessibility standards. Buttons in Bright Orange (#FF6F3C) also stand out clearly against light backgrounds, ensuring visibility for all users.
+Use of colours with strong contrast to make text easy to read. For example, **Dark Charcoal (#333333)** text on **White (#FFFFFF)** or **Soft White (#F8F9FA)** backgrounds provides clear contrast, meeting accessibility standards. Buttons in **Bright Orange (#FF6F3C)** also stand out clearly against light backgrounds, ensuring visibility for all users.
 
 ### Alt Text for Images:
 All images include descriptive alt text to help screen readers convey the content. Decorative images have empty alt tags (alt="") to avoid distracting screen reader users.
