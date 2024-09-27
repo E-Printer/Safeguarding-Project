@@ -91,8 +91,8 @@ For a clean, minimal design, following a familiar structure seen on the code ins
 
 ## Typography
 
-Montserrat for headings owing to its modern and professional look that is slightly bolder and catching.
-Roboto for the body: clean and professional looking.
+* Montserrat for headings, owing to its modern and professional look that is slightly bolder and eye-catching.
+* Roboto for the body: clean and professional looking.
 
 ## Accessibility Considerations
 
