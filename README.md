@@ -54,4 +54,36 @@ As a user, I would like to be able to find information on safeguarding practices
 
 ## Design Decisions
 ### Wireframes
+### The landing page
 ![Wireframe](https://share.balsamiq.com/c/brVwrak8UdtKB7FS1V6JU3.png)
+---
+The landing page will feature a hero that includes a title, a nav bar (which will be fixed), a home button (which will navigate the user to the top of the page). Underneath, there will be important contacts available to scroll through. Pressing on one of these contacts will navigate the user to their section on the website. This is to make it quick and easy for the user to get in contact with a professional.
+
+### Information sections
+![Wireframe](https://share.balsamiq.com/c/rdv2FqpTkb7Hh9C5cf9Tnm.png)
+---
+There will be three information sections dedicated to:
+* What is safeguarding?
+* Signs to watch for
+* Action steps
+These will take up the length of the page for an enhanced user experience.
+
+### Contact Section
+![Wireframe](https://share.balsamiq.com/c/usBE5eqzy9H56tB9Kb3TVh.png)
+---
+Like the information section, these contacts will each take up the entirety of the screen.
+
+### Anonymous reporting
+![Wireframe](https://share.balsamiq.com/c/jZz77EkeHVC5JfmbDXR9jz.png)
+---
+A section dedicated to anonymous reporting of potential issues to the CI safeguarding team.
+
+### FAQ
+![Wireframe](https://share.balsamiq.com/c/xjD1uj5cBYPiTeAyrRCkCQ.png)
+---
+FAQ section to round off website with summarised pieces of key information.
+
+## Colour Palette
+![palette](Assets/Images/AdobeColor-My%20Color%20Theme.jpeg)
+---
+For a clean, minimal design, following a familiar structure seen on the code institute website, I'll use **Soft White (#F8F9FA)** as the main background color. I'll highlight important elements like buttons and calls to action with **Bright Orange (#FF6F3C)**. To keep things warm but subtle, I'll use **Soft Peach (#FFA552)** for section backgrounds or navigation menus. For readability, I'll ensure the body text is in **Dark Charcoal (#333333)** and use **Deep Burnt Orange (#D35400)** for headings or key information. Finally, I'll add **Light Warm Grey (#E5E5E5)** for borders and dividing lines to subtly separate content areas.
