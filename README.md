@@ -51,3 +51,7 @@ As a user, I would like to be able to find information on safeguarding practices
 * Key safeguarding documents (e.g., policies, guidelines) should be available for download in common formats (e.g., PDF) and must be clearly linked.
 * The information must adhere to accessibility guidelines (e.g., contrast, font size, readable formats) to ensure users with disabilities can access the content.
 * The page should be easy to find, linked from the homepage or in a dedicated menu, with clear labels (e.g., "Safeguarding Practices" or "Safety Information").
+
+## Design Decisions
+### Wireframes
+![Wireframe](https://share.balsamiq.com/c/brVwrak8UdtKB7FS1V6JU3.png)
