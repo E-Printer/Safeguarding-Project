@@ -35,6 +35,39 @@ background-color: #FFA552;
     opacity: 1;
 }
 
+.hero-section {
+    position: relative;
+    background-image: url('https://as1.ftcdn.net/v2/jpg/04/52/00/22/1000_F_452002223_gktaY844n8rShiJI1TZh0ltoMgvUZkgn.jpg');
+    background-size: cover;    /* Ensures the image covers the entire hero section */
+    background-position: center center;  /* Centers the background image */
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
+    color: #fff;  /* Ensures the text is readable */
+}
+
+.overlay{
+    position: absolute; /* Position overlay on top of the hero section */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    z-index: 1; /* Ensure overlay is above the background but below text */
+}
+
+.container-fluid{
+    position: relative; /* Ensure text is above the overlay */
+    z-index: 2; /* Make sure the text is above the overlay */
+}
+
+.hero-title{
+    font-family: Montserrat, sans-serif;
+}
+
+.hero-text{
+    font-family: Montserrat, sans-serif;
+}
+
+
 /*-----------------------------Header*/
 
 
