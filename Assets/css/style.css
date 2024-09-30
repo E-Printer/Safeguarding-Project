@@ -13,7 +13,11 @@ body{
 }
 
 .navbar-toggler-color{
-    background-color: #333;
+    background-color: #f8f9fa;
+}
+
+.navbar-toggler-icon{
+    background-color: #d35400;
 }
 
 /*-----------------------------Colours*/
@@ -90,7 +94,7 @@ body{
 
 
 
-/* Media Query for tablet and up */
+/* Hero text for tablet and up */
 @media (min-width: 768px) { /* Bootstrap's breakpoint for large devices */
     .hero-section {
         display: flex; /* Keep Flexbox enabled */
@@ -99,3 +103,5 @@ body{
         height: 100vh; /* Ensure full viewport height */
     }
 }
+
+
