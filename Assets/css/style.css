@@ -150,6 +150,7 @@ body{
 
 .container-AS{
     margin-bottom: 100px;
+    line-height: 2.0;
 }
 
 .container-o {
@@ -172,6 +173,7 @@ body{
 
   .orange-box > p,h2{
     color: #f8f9fa;
+    line-height: 1.5;
   }
 
 
@@ -234,6 +236,18 @@ body{
 }
 /*-----------------------------Body*/
 
+/*-----------------------------Footer*/
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+.footer-content {
+    margin-top: 30px;
+}
+
+/*-----------------------------Footer*/
 
 
 
