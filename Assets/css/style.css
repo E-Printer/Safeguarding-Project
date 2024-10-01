@@ -48,6 +48,10 @@ body{
     background-repeat: no-repeat;  /* Prevents the image from repeating */
     color: #fff;  /* Ensures the text is readable */
     height: 100vh;
+    display: flex; /* Keep Flexbox enabled */
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Horizontally center content */
+
 }
 
 .overlay{
@@ -95,22 +99,29 @@ body{
 
 /*-----------------------------Body*/
 
+
+
 .info-h1{
     text-decoration: underline;
     font-family: montserrat, sans-serif;
     color: #ff6f3c;
     margin-top: 50px;
+    text-align: center;
 }
 
 #p-1{
     font-family: roboto,sans-serif;
     color: #333;
+    text-align: center;
+    line-height: 2.0;
 }
 
 .href-nhs{
     text-decoration: none;
     color: #ff6f3c;
     font-family: roboto, sans-serif;
+    display: block;
+    text-align: center;
 }
 
 .href-nhs-2{
@@ -118,11 +129,11 @@ body{
     color: #ff6f3c;
     font-family: roboto, sans-serif;
     display:block;
-    text-align: end;
+    text-align: center;
 }
 
 .info-h1-2{
-    text-align: end;
+    text-align: center;
     text-decoration: underline;
     font-family: montserrat, sans-serif;
     color: #ff6f3c;
@@ -132,21 +143,39 @@ body{
 #txt-aln-end{
     font-family: roboto,sans-serif;
     color: #333;
-    text-align: end;
+    text-align: center;
+    line-height: 2.0;
 }
+
+.container-o {
+    display: flex;
+    justify-content: center; /* Horizontally centers the box */
+    align-items: center; /* Vertically centers the box */
+    height: 10rem; /* Make the container take up the full viewport height */
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  /* Style the centered box */
+  .orange-box {
+    width: 70%; /* Set the width of the box to 70% */
+    background-color: #ff6f3c; /* Example background color */
+    padding: 20px; /* Add some padding */
+    text-align: center; /* Center the text */
+    height: 100%;
+  }
 
 /*-----------------------------Body*/
 
 
 
-/* Hero text for tablet and up */
-@media (min-width: 768px) { /* Bootstrap's breakpoint for large devices */
-    .hero-section {
-        display: flex; /* Keep Flexbox enabled */
-        align-items: center; /* Vertically center content */
-        justify-content: center; /* Horizontally center content */
-        height: 100vh; /* Ensure full viewport height */
+
+@media (max-width: 768px) {
+    .orange-box {
+      width: auto; /* Reset width to auto */
+      flex-grow: 1; /* Allow it to grow and take up available space */
+      max-width: 95%; /* Set a maximum width of 95% */
     }
-}
+  }
 
 
