@@ -147,6 +147,11 @@ body{
     line-height: 2.0;
 }
 
+
+.container-AS{
+    margin-bottom: 100px;
+}
+
 .container-o {
     display: flex;
     justify-content: center; /* Horizontally centers the box */
