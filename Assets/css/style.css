@@ -18,7 +18,7 @@ body{
 }
 
 .navbar-toggler-icon{
-    background-color: #d35400;
+    background-color: #ffa552;
 }
 
 /*-----------------------------Colours*/
@@ -78,14 +78,14 @@ body{
 }
 
 .hero-button {
-    background-color: #d35400; /* Set default background color */
+    background-color: #ffa552; /* Set default background color */
     color: white; /* Set text color */
     border: none; /* Remove border */
     transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
 }
 
 .hero-button:hover {
-    background-color: #d35400; /* Keep the same background color on hover */
+    background-color: #ffa552; /* Keep the same background color on hover */
     color: white; /* Ensure text color remains white */
     text-decoration: none; /* Remove underline on hover */
     transform:scale(1.1);
@@ -156,7 +156,7 @@ body{
     margin-bottom: 30px;
   }
   
-  /* Style the centered box */
+  
   .orange-box {
     width: 70%; /* Set the width of the box to 70% */
     background-color: #ff6f3c; /* Example background color */
@@ -169,6 +169,38 @@ body{
     color: #f8f9fa;
   }
 
+
+.card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+}
+
+
+.hero-button-c {
+    background-color: #ffa552; /* Set default background color */
+    color: white; /* Set text color */
+    border: none; /* Remove border */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+}
+
+.hero-button-c:hover {
+    background-color: #ffa552; /* Keep the same background color on hover */
+    color: white; /* Ensure text color remains white */
+    text-decoration: none; /* Remove underline on hover */
+    box-shadow: 0px 3px 3px rgba(51, 51, 51, 0.8);
+
+}
 /*-----------------------------Body*/
 
 
