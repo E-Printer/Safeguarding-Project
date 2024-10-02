@@ -112,7 +112,9 @@ Font sizes are large enough to read, and line spacing ensures easy readability.
 
 Whilst the initial design featured an image carousel for important contacts, the current card feature was a more practical element to include, proving to be a time saver. 
 
-Most acceptance criteria has been met, excluding additional contact links, of which are not available.
+Most acceptance criteria has been met, excluding additional contact links, which are not available.
+
+![image](Assets/Images/ContactSS.png)
 
 ## Feature: Inforamtion Section
 
@@ -124,6 +126,35 @@ Links have been provided below each paragraph, so that users can verify the sour
 
 Action steps were built using bootstraps list component.
 
+![image](Assets/Images/Actionsteps.png)
+
 ## Feature: Anonymous Reporting
 
 Built using bootstraps form components, this is a simple form for users to raise any concerns anonymously. The feedback field is required before submission.
+
+![image](Assets/Images/anonR.png)
+
+# Testing and Validation
+
+* Testing was conducted across various devices and screen sizes, including mobile phones, tablets, and desktops.
+* Chrome DevTools was used to simulate different device environments.
+## Issues Found:
+* Mobile responsiveness: Some elements were misaligned on smaller screens, which was fixed by adjusting media queries.
+
+## The HTML and CSS were validated using the W3C Markup Validator and the Jigsaw CSS Validator.
+### Results:
+* HTML: There are many errors, of which, are mostly referring to imported bootstrap code-which works. So, I am apprehensive to alter.
+* CSS: No issues detected.
+
+# Deployment Process
+
+## The project was deployed to GitHub Pages following these steps:
+
+* Pushed the MVP to the main branch of the GitHub repository.
+* Navigated to the repository's Settings > Pages section.
+* Selected the branch to deploy from (e.g., main) and the root directory for deployment.
+* After saving the settings, the website was deployed automatically.
+
+### Challenges Encountered:
+
+* CSS not loading: The issue was resolved by ensuring the correct file paths were used, relative to the repository structure.
