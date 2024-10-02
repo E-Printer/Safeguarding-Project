@@ -126,6 +126,8 @@ Links have been provided below each paragraph, so that users can verify the sour
 
 Action steps were built using bootstraps list component.
 
+![image](Assets/Images/informationSec.png)
+
 ![image](Assets/Images/Actionsteps.png)
 
 ## Feature: Anonymous Reporting
