@@ -78,9 +78,7 @@ Like the information section, these contacts will each take up the entirety of t
 ---
 A section dedicated to anonymous reporting of potential issues to the CI safeguarding team.
 
-### Final Look
 
-![Screenshot](Assets/Images/Screenshot%202024-10-02%20at%2009.33.49.png)
 
 ## Colour Palette
 ![palette](Assets/Images/AdobeColor-My%20Color%20Theme.jpeg)
@@ -91,6 +89,10 @@ For a clean, minimal design, following a familiar structure seen on the code ins
 
 * Montserrat for headings, owing to its modern and professional look that is slightly bolder and eye-catching.
 * Roboto for the body: clean and professional looking.
+
+### Final Look
+
+![Screenshot](Assets/Images/Screenshot%202024-10-02%20at%2009.33.49.png)
 
 ## Accessibility Considerations
 
