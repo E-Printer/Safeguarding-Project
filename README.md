@@ -105,3 +105,25 @@ All icons include descriptive aria-labels to help screen readers convey the cont
 
 ### Other Accessibility Measures:
 Font sizes are large enough to read, and line spacing ensures easy readability.
+
+# Features Implementation
+
+## Feature: Contact cards
+
+Whilst the initial design featured an image carousel for important contacts, the current card feature was a more practical element to include, proving to be a time saver. 
+
+Most acceptance criteria has been met, excluding additional contact links, of which are not available.
+
+## Feature: Inforamtion Section
+
+Meeting the acceptance criteria, this section offers easy to understand information surrounding safeguarding.
+
+The text was given a line-height of 2 and a font family of #333 against a white background to make it clear for users. 
+ 
+Links have been provided below each paragraph, so that users can verify the sources.
+
+Action steps were built using bootstraps list component.
+
+## Feature: Anonymous Reporting
+
+Built using bootstraps form components, this is a simple form for users to raise any concerns anonymously. The feedback field is required before submission.
