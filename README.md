@@ -108,6 +108,10 @@ All icons include descriptive aria-labels to help screen readers convey the cont
 ### Other Accessibility Measures:
 Font sizes are large enough to read, and line spacing ensures easy readability.
 
+# AI Usage
+
+Script taken from OpenAI to close navigation menu on screens of 768px and smaller once menu option has been selected.
+
 # Features Implementation
 
 ## Feature: Contact cards
@@ -144,6 +148,7 @@ Built using bootstraps form components, this is a simple form for users to raise
 * Chrome DevTools was used to simulate different device environments.
 ## Issues Found:
 * Mobile responsiveness: Some elements were misaligned on smaller screens, which was fixed by adjusting media queries.
+* Mobile responsiveness: navigation menu would take up entire screen and not leave when location on page navigated to. Use of ChatGPT to create script that would hide the nav menu once location reached.
 
 ## The HTML and CSS were validated using the W3C Markup Validator and the Jigsaw CSS Validator.
 ### Results:
